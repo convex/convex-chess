@@ -25,7 +25,7 @@ reset-local-backend:
 run-local-backend *ARGS:
   cd $CONVEX_LOCAL_BACKEND_PATH && just run-local-backend --port 3210
 
-# Taken from https://github.com/get-convex/convex-backend/blob/main/Justfile
+# Taken from https://github.com/convex/convex-backend/blob/main/Justfile
 # (*) Run convex CLI commands like `convex dev` against local backend from `just run-local-backend`.
 # This uses the default admin key for local backends, which is safe as long as the backend is
 # running locally.
